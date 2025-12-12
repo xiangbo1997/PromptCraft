@@ -1,0 +1,135 @@
+/* English Localization for PromptCraft */
+
+/* App */
+"app.name" = "PromptCraft";
+
+/* Common */
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.save" = "Save";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.copy" = "Copy";
+"common.copied" = "Copied!";
+"common.search" = "Search";
+"common.loading" = "Loading...";
+"common.error" = "Error";
+"common.success" = "Success";
+"common.warning" = "Warning";
+
+/* Navigation Tabs */
+"tab.optimize" = "Prompt Optimizer";
+"tab.library" = "Prompt Library";
+"tab.tags" = "Tags & Categories";
+"tab.settings" = "Preferences";
+"tab.history" = "History";
+"tab.favorites" = "Favorites";
+
+/* Optimize */
+"optimize.title" = "Prompt Optimizer";
+"optimize.input.placeholder" = "Enter your prompt here...";
+"optimize.output.placeholder" = "Optimized result will appear here...";
+"optimize.button" = "Optimize";
+"optimize.mode.label" = "Mode";
+"optimize.mode.concise" = "Concise";
+"optimize.mode.detailed" = "Detailed";
+"optimize.mode.professional" = "Professional";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.ai.config" = "AI Service Configuration";
+"settings.api.key" = "OpenAI API Key";
+"settings.api.key.placeholder" = "sk-...";
+"settings.api.key.valid" = "API Key Valid";
+"settings.api.key.invalid" = "Invalid API Key";
+"settings.validate.button" = "Validate & Refresh Models";
+"settings.model" = "AI Model";
+"settings.custom.endpoint" = "Custom API Endpoint (Optional)";
+"settings.timeout" = "API Timeout";
+"settings.max.retries" = "Max Retries";
+"settings.daily.limit" = "Daily Call Limit (Optional)";
+
+"settings.hotkeys" = "Global Hotkeys";
+"settings.hotkey.toggle.panel" = "Toggle Panel";
+"settings.hotkey.quick.optimize" = "Quick Optimize";
+"settings.hotkey.open.library" = "Open Library";
+
+"settings.appearance" = "Appearance";
+"settings.theme" = "Theme";
+"settings.language" = "Language";
+
+"settings.general" = "General";
+"settings.launch.at.login" = "Launch at Login";
+"settings.default.mode" = "Default Optimize Mode";
+"settings.show.toast" = "Show 'Copied!' Toast";
+
+"settings.data.management" = "Data Management";
+"settings.export.data" = "Export Data...";
+"settings.import.data" = "Import Data...";
+"settings.clear.data" = "Clear All Data";
+
+"settings.about" = "About";
+"settings.version" = "Version";
+"settings.check.update" = "Check for Updates...";
+"settings.reset" = "Reset All Settings to Default";
+
+/* System Prompts */
+"settings.system.prompts" = "System Prompts";
+"settings.system.prompts.edit" = "Edit System Prompts";
+"settings.system.prompts.description" = "Customize the AI instructions for each optimization mode";
+"settings.system.prompts.reset" = "Reset to Default";
+"settings.system.prompts.reset.all" = "Reset All to Default";
+
+/* Library */
+"library.title" = "Prompt Library";
+"library.empty.message" = "No prompts yet. Start by optimizing your first prompt!";
+"library.search.placeholder" = "Search prompts...";
+"library.sort.by" = "Sort by";
+"library.filter.category" = "Filter by Category";
+"library.filter.tag" = "Filter by Tag";
+
+/* History */
+"history.title" = "History";
+"history.empty.message" = "No history yet";
+"history.clear.all" = "Clear All";
+
+/* Favorites */
+"favorites.title" = "Favorites";
+"favorites.empty.message" = "No favorites yet";
+"favorites.add" = "Add to Favorites";
+"favorites.remove" = "Remove from Favorites";
+
+/* Tags & Categories */
+"tags.title" = "Tags & Categories";
+"tags.categories" = "Categories";
+"tags.tags" = "Tags";
+"tags.add.category" = "Add Category";
+"tags.add.tag" = "Add Tag";
+"tags.empty.categories" = "No categories yet";
+"tags.empty.tags" = "No tags yet";
+
+/* Language */
+"language.system" = "Follow System";
+"language.english" = "English";
+"language.chinese" = "简体中文";
+
+/* Theme */
+"theme.system" = "System";
+"theme.light" = "Light";
+"theme.dark" = "Dark";
+
+/* MenuBar */
+"menubar.optimize" = "Optimize";
+"menubar.recent" = "Recent";
+"menubar.favorites" = "Favorites";
+"menubar.open.main" = "Open Main Window";
+"menubar.preferences" = "Preferences...";
+"menubar.quit" = "Quit PromptCraft";
+
+/* Toast Messages */
+"toast.copied" = "Copied to clipboard";
+"toast.saved" = "Saved successfully";
+"toast.deleted" = "Deleted successfully";
+"toast.favorited" = "Added to favorites";
+"toast.unfavorited" = "Removed from favorites";
+"toast.error.generic" = "An error occurred";

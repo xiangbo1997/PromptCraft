@@ -1,0 +1,135 @@
+/* 简体中文本地化 - PromptCraft */
+
+/* 应用 */
+"app.name" = "PromptCraft";
+
+/* 通用 */
+"common.ok" = "确定";
+"common.cancel" = "取消";
+"common.save" = "保存";
+"common.delete" = "删除";
+"common.edit" = "编辑";
+"common.copy" = "复制";
+"common.copied" = "已复制！";
+"common.search" = "搜索";
+"common.loading" = "加载中...";
+"common.error" = "错误";
+"common.success" = "成功";
+"common.warning" = "警告";
+
+/* 导航标签 */
+"tab.optimize" = "提示词优化";
+"tab.library" = "提示词库";
+"tab.tags" = "标签与分类";
+"tab.settings" = "设置";
+"tab.history" = "历史记录";
+"tab.favorites" = "收藏夹";
+
+/* 优化 */
+"optimize.title" = "提示词优化";
+"optimize.input.placeholder" = "在此输入您的提示词...";
+"optimize.output.placeholder" = "优化结果将显示在这里...";
+"optimize.button" = "优化";
+"optimize.mode.label" = "模式";
+"optimize.mode.concise" = "简洁版";
+"optimize.mode.detailed" = "详细版";
+"optimize.mode.professional" = "专业版";
+
+/* 设置 */
+"settings.title" = "设置";
+"settings.ai.config" = "AI 服务配置";
+"settings.api.key" = "OpenAI API 密钥";
+"settings.api.key.placeholder" = "sk-...";
+"settings.api.key.valid" = "API 密钥有效";
+"settings.api.key.invalid" = "API 密钥无效";
+"settings.validate.button" = "验证并刷新模型";
+"settings.model" = "AI 模型";
+"settings.custom.endpoint" = "自定义 API 端点（可选）";
+"settings.timeout" = "API 超时时间";
+"settings.max.retries" = "最大重试次数";
+"settings.daily.limit" = "每日调用限制（可选）";
+
+"settings.hotkeys" = "全局快捷键";
+"settings.hotkey.toggle.panel" = "切换面板";
+"settings.hotkey.quick.optimize" = "快速优化";
+"settings.hotkey.open.library" = "打开提示词库";
+
+"settings.appearance" = "外观";
+"settings.theme" = "主题";
+"settings.language" = "语言";
+
+"settings.general" = "通用";
+"settings.launch.at.login" = "登录时启动";
+"settings.default.mode" = "默认优化模式";
+"settings.show.toast" = "显示\"已复制\"提示";
+
+"settings.data.management" = "数据管理";
+"settings.export.data" = "导出数据...";
+"settings.import.data" = "导入数据...";
+"settings.clear.data" = "清除所有数据";
+
+"settings.about" = "关于";
+"settings.version" = "版本";
+"settings.check.update" = "检查更新...";
+"settings.reset" = "恢复默认设置";
+
+/* 系统提示词 */
+"settings.system.prompts" = "系统提示词";
+"settings.system.prompts.edit" = "编辑系统提示词";
+"settings.system.prompts.description" = "自定义每种优化模式的 AI 指令";
+"settings.system.prompts.reset" = "恢复默认";
+"settings.system.prompts.reset.all" = "全部恢复默认";
+
+/* 提示词库 */
+"library.title" = "提示词库";
+"library.empty.message" = "暂无提示词，开始优化您的第一个提示词吧！";
+"library.search.placeholder" = "搜索提示词...";
+"library.sort.by" = "排序方式";
+"library.filter.category" = "按分类筛选";
+"library.filter.tag" = "按标签筛选";
+
+/* 历史记录 */
+"history.title" = "历史记录";
+"history.empty.message" = "暂无历史记录";
+"history.clear.all" = "清除全部";
+
+/* 收藏夹 */
+"favorites.title" = "收藏夹";
+"favorites.empty.message" = "暂无收藏";
+"favorites.add" = "添加到收藏";
+"favorites.remove" = "取消收藏";
+
+/* 标签与分类 */
+"tags.title" = "标签与分类";
+"tags.categories" = "分类";
+"tags.tags" = "标签";
+"tags.add.category" = "添加分类";
+"tags.add.tag" = "添加标签";
+"tags.empty.categories" = "暂无分类";
+"tags.empty.tags" = "暂无标签";
+
+/* 语言 */
+"language.system" = "跟随系统";
+"language.english" = "English";
+"language.chinese" = "简体中文";
+
+/* 主题 */
+"theme.system" = "跟随系统";
+"theme.light" = "浅色";
+"theme.dark" = "深色";
+
+/* 菜单栏 */
+"menubar.optimize" = "优化";
+"menubar.recent" = "最近";
+"menubar.favorites" = "收藏";
+"menubar.open.main" = "打开主窗口";
+"menubar.preferences" = "偏好设置...";
+"menubar.quit" = "退出 PromptCraft";
+
+/* 提示消息 */
+"toast.copied" = "已复制到剪贴板";
+"toast.saved" = "保存成功";
+"toast.deleted" = "删除成功";
+"toast.favorited" = "已添加到收藏";
+"toast.unfavorited" = "已取消收藏";
+"toast.error.generic" = "发生错误";

@@ -1,0 +1,41 @@
+name: PromptCraft
+options:
+  bundleIdPrefix: com.promptcraft
+  deploymentTarget:
+    macOS: 14.0
+  xcodeVersion: 15.0
+  groupSortPosition: top
+settings:
+  base:
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+    PRODUCT_NAME: PromptCraft
+    SWIFT_VERSION: 5.9
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: "" # 用户可以在 Xcode 中自行设置
+    ENABLE_PREVIEWS: YES
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2024 PromptCraft. All rights reserved."
+    INFOPLIST_KEY_LSUIElement: NO # 设置为 YES 如果是纯菜单栏应用
+packages:
+  HotKey:
+    url: https://github.com/soffes/HotKey
+    from: 0.2.0
+
+targets:
+  PromptCraft:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources: [PromptCraft]
+    settings:
+      base:
+        INFOPLIST_KEY_NSPrincipalClass: NSApplication
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.PromptCraft
+        INFOPLIST_KEY_NSHumanReadableCopyright: "© 2025 PromptCraft"
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        CODE_SIGN_ENTITLEMENTS: PromptCraft/PromptCraft.entitlements
+    dependencies:
+      - package: HotKey
+      - sdk: SwiftUI.framework
+      - sdk: SwiftData.framework
