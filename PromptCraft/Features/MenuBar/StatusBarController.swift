@@ -23,10 +23,10 @@ class StatusBarController: NSObject {
     private func setupStatusItem() {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         if let button = statusItem.button {
-            button.image = NSImage(systemSymbolName: "sparkles", accessibilityDescription: "PromptCraft")
+            button.image = NSImage(systemSymbolName: "sparkles", accessibilityDescription: "SparkPrompt")
             button.action = #selector(togglePopover)
             button.target = self
-            button.toolTip = "PromptCraft"
+            button.toolTip = "SparkPrompt"
         }
     }
     
@@ -91,29 +91,20 @@ class StatusBarController: NSObject {
     }
     
     // MARK: - Hotkey Handlers (for actions other than toggling the panel itself)
-    
+
     private func handleQuickOptimizeHotkey() {
         print("Quick Optimize Hotkey Pressed!")
-        // TODO: Implement quick optimize action, e.g., open a quick optimize window/view
-        // For now, let's just make the main window activate and go to optimize tab
-        if !NSApp.isActive {
-            NSApp.activate(ignoringOtherApps: true)
-        }
-        if let window = NSApp.windows.first {
-            window.makeKeyAndOrderFront(nil)
-            // Optionally, set the selected tab to optimize if MainView exposes it
+        // 打开主窗口并导航到优化标签页
+        Task { @MainActor in
+            appState.navigateToTab(.optimize)
         }
     }
-    
+
     private func handleOpenLibraryHotkey() {
         print("Open Library Hotkey Pressed!")
-        // TODO: Implement open library action, e.g., open main window to library tab
-        if !NSApp.isActive {
-            NSApp.activate(ignoringOtherApps: true)
-        }
-        if let window = NSApp.windows.first {
-            window.makeKeyAndOrderFront(nil)
-            // Optionally, set the selected tab to library if MainView exposes it
+        // 打开主窗口并导航到提示词库标签页
+        Task { @MainActor in
+            appState.navigateToTab(.library)
         }
     }
 }

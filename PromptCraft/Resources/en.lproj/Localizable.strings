@@ -133,3 +133,414 @@
 "toast.favorited" = "Added to favorites";
 "toast.unfavorited" = "Removed from favorites";
 "toast.error.generic" = "An error occurred";
+
+/* ========== Scene Categories ========== */
+"scene.category.xiaohongshu" = "Xiaohongshu";
+"scene.category.xiaohongshu.description" = "Content creation for Xiaohongshu";
+"scene.category.workplace" = "Workplace";
+"scene.category.workplace.description" = "Tools to boost work efficiency";
+"scene.category.programming" = "Programming";
+"scene.category.programming.description" = "Code development and debugging";
+"scene.category.marketing" = "Marketing";
+"scene.category.marketing.description" = "Marketing and advertising copy";
+"scene.category.education" = "Education";
+"scene.category.education.description" = "Learning and knowledge explanation";
+"scene.category.creative" = "Creative Writing";
+"scene.category.creative.description" = "Creative content and literature";
+
+/* ========== Common Tags ========== */
+"template.tag.title" = "Title";
+"template.tag.viral" = "Viral";
+"template.tag.eyecatching" = "Eye-catching";
+"template.tag.recommend" = "Recommend";
+"template.tag.copywriting" = "Copywriting";
+"template.tag.conversion" = "Conversion";
+"template.tag.comment" = "Comment";
+"template.tag.interaction" = "Interaction";
+"template.tag.reply" = "Reply";
+"template.tag.weekly_report" = "Weekly Report";
+"template.tag.report" = "Report";
+"template.tag.workplace" = "Workplace";
+"template.tag.email" = "Email";
+"template.tag.business" = "Business";
+"template.tag.communication" = "Communication";
+"template.tag.meeting" = "Meeting";
+"template.tag.minutes" = "Minutes";
+"template.tag.organize" = "Organize";
+"template.tag.code" = "Code";
+"template.tag.explain" = "Explain";
+"template.tag.learning" = "Learning";
+"template.tag.bug" = "Bug";
+"template.tag.debug" = "Debug";
+"template.tag.fix" = "Fix";
+"template.tag.optimize" = "Optimize";
+"template.tag.refactor" = "Refactor";
+"template.tag.code_quality" = "Code Quality";
+"template.tag.product" = "Product";
+"template.tag.description" = "Description";
+"template.tag.ecommerce" = "E-commerce";
+"template.tag.slogan" = "Slogan";
+"template.tag.brand" = "Brand";
+"template.tag.creative" = "Creative";
+"template.tag.education" = "Education";
+"template.tag.plan" = "Plan";
+"template.tag.time_management" = "Time Management";
+"template.tag.mistake" = "Mistake";
+"template.tag.analysis" = "Analysis";
+"template.tag.review" = "Review";
+"template.tag.story" = "Story";
+"template.tag.writing" = "Writing";
+"template.tag.poem" = "Poem";
+"template.tag.literature" = "Literature";
+"template.tag.rewrite" = "Rewrite";
+"template.tag.style" = "Style";
+"template.tag.moments" = "Moments";
+"template.tag.social" = "Social";
+
+/* ========== Common Programming Languages ========== */
+"template.common.lang.swift" = "Swift";
+"template.common.lang.python" = "Python";
+"template.common.lang.javascript" = "JavaScript";
+"template.common.lang.typescript" = "TypeScript";
+"template.common.lang.java" = "Java";
+"template.common.lang.go" = "Go";
+"template.common.lang.rust" = "Rust";
+"template.common.lang.other" = "Other";
+
+/* ========== Xiaohongshu Templates ========== */
+
+/* Viral Title Generator */
+"template.xhs_title.name" = "Viral Title Generator";
+"template.xhs_title.description" = "Generate eye-catching Xiaohongshu titles to boost click rates";
+"template.xhs_title.field.product.label" = "Product/Topic";
+"template.xhs_title.field.product.placeholder" = "e.g., whitening mask, travel guide, outfit sharing";
+"template.xhs_title.field.selling_point.label" = "Key Selling Point";
+"template.xhs_title.field.selling_point.placeholder" = "e.g., affordable, amazing results, hidden gem";
+"template.xhs_title.field.style.label" = "Title Style";
+"template.xhs_title.field.style.placeholder" = "Select title style";
+"template.xhs_title.field.style.option.recommend" = "Product Recommendation";
+"template.xhs_title.field.style.option.review" = "Review & Comparison";
+"template.xhs_title.field.style.option.tutorial" = "Tutorial Guide";
+"template.xhs_title.field.style.option.emotional" = "Emotional Appeal";
+"template.xhs_title.field.style.option.suspense" = "Suspense Hook";
+"template.xhs_title.system_prompt" = "You are an experienced Xiaohongshu content strategist, skilled in creating viral titles. You understand Xiaohongshu users' reading habits and psychology, and are proficient in:\n1. Number technique: Using specific numbers to increase credibility\n2. Emotional resonance: Triggering curiosity, anxiety, or anticipation\n3. Contrast effect: Creating cognitive conflicts to attract attention\n4. Identity recognition: Making users feel 'this is about me'\n5. Urgency: Creating a sense of limited time or scarcity\n\nBased on the product and selling points provided, generate 5 different viral titles. Each title should be within 20 characters, catchy and memorable.";
+"template.xhs_title.user_prompt" = "Please generate 5 Xiaohongshu viral titles for:\n\nProduct/Topic: {{product}}\nKey Selling Point: {{selling_point}}\nTitle Style: {{style}}\n\nRequirements:\n1. Each title within 20 characters\n2. Use emojis for visual appeal\n3. Match Xiaohongshu user reading habits\n4. Highlight the key selling point";
+"template.xhs_title.example_output" = "1. 💰 $5 whitening mask outperforms luxury brands!\n2. 🔥 Ladies, rush! This mask makes your skin glow\n3. ❓ Why are wealthy people secretly using this mask?\n4. 😱 Used for 7 days, colleague asked if I got skin treatment\n5. 📢 Students must-have! Best value whitening mask ever";
+
+/* Product Recommendation */
+"template.xhs_recommend.name" = "Product Recommendation";
+"template.xhs_recommend.description" = "Generate authentic, high-conversion product recommendations";
+"template.xhs_recommend.field.product_name.label" = "Product Name";
+"template.xhs_recommend.field.product_name.placeholder" = "e.g., Estée Lauder Advanced Night Repair";
+"template.xhs_recommend.field.product_features.label" = "Product Features";
+"template.xhs_recommend.field.product_features.placeholder" = "e.g., anti-aging, repair, hydrating";
+"template.xhs_recommend.field.target_audience.label" = "Target Audience";
+"template.xhs_recommend.field.target_audience.placeholder" = "e.g., 25-35 years, mature skin";
+"template.xhs_recommend.field.target_audience.default" = "Young women";
+"template.xhs_recommend.field.price_range.label" = "Price Range";
+"template.xhs_recommend.field.price_range.placeholder" = "e.g., $30-50";
+"template.xhs_recommend.system_prompt" = "You are an experienced Xiaohongshu blogger skilled in writing authentic, engaging product recommendations. Your writing style features:\n1. Conversational tone, like chatting with a friend\n2. Real usage experience with detailed descriptions\n3. Appropriate use of emojis for readability\n4. Clear structure: Hook → Experience → Summary\n5. Avoid overselling, maintain authenticity\n\nWrite in a genuine user voice to build trust and purchase desire.";
+"template.xhs_recommend.user_prompt" = "Please write a Xiaohongshu product recommendation for:\n\nProduct Name: {{product_name}}\nProduct Features: {{product_features}}\nTarget Audience: {{target_audience}}\nPrice Range: {{price_range}}\n\nRequirements:\n1. 300-500 words\n2. First-person authentic experience style\n3. Include before/after comparison\n4. Naturally incorporate product benefits\n5. End with purchase recommendation";
+
+/* Comment Reply */
+"template.xhs_reply.name" = "Comment Reply Generator";
+"template.xhs_reply.description" = "Generate engaging, interactive comment replies";
+"template.xhs_reply.field.comment_content.label" = "User Comment";
+"template.xhs_reply.field.comment_content.placeholder" = "Paste the user's comment";
+"template.xhs_reply.field.reply_tone.label" = "Reply Tone";
+"template.xhs_reply.field.reply_tone.placeholder" = "Select reply style";
+"template.xhs_reply.field.reply_tone.option.friendly" = "Warm & Friendly";
+"template.xhs_reply.field.reply_tone.option.humorous" = "Humorous & Fun";
+"template.xhs_reply.field.reply_tone.option.professional" = "Professional";
+"template.xhs_reply.field.reply_tone.option.cute" = "Cute & Playful";
+"template.xhs_reply.field.brand_info.label" = "Brand/Account Info";
+"template.xhs_reply.field.brand_info.placeholder" = "Brief description of your account positioning";
+"template.xhs_reply.system_prompt" = "You are an engaging Xiaohongshu blogger skilled in writing replies that make fans feel valued. Reply characteristics:\n1. Sincere and warm, making people feel respected\n2. Give valuable responses based on comment content\n3. Appropriate use of emojis for friendliness\n4. Guide further interaction (questions, follow invites, etc.)\n5. Handle negative comments professionally and gracefully";
+"template.xhs_reply.user_prompt" = "Please generate 3 different style replies for this comment:\n\nUser Comment: {{comment_content}}\nReply Tone: {{reply_tone}}\nAccount Info: {{brand_info}}\n\nRequirements:\n1. Each reply within 50 words\n2. Show genuine interaction\n3. Encourage continued engagement";
+
+/* ========== Workplace Templates ========== */
+
+/* Weekly Report Generator */
+"template.work_weekly.name" = "Weekly Report Generator";
+"template.work_weekly.description" = "Quickly generate well-structured, professional weekly reports";
+"template.work_weekly.field.work_done.label" = "Work Completed This Week";
+"template.work_weekly.field.work_done.placeholder" = "List main tasks completed, separated by commas or line breaks";
+"template.work_weekly.field.work_progress.label" = "Work in Progress";
+"template.work_weekly.field.work_progress.placeholder" = "List ongoing work and progress";
+"template.work_weekly.field.next_week_plan.label" = "Next Week's Plan";
+"template.work_weekly.field.next_week_plan.placeholder" = "List plans for next week";
+"template.work_weekly.field.problems.label" = "Issues Encountered";
+"template.work_weekly.field.problems.placeholder" = "Difficulties or items needing coordination";
+"template.work_weekly.field.report_style.label" = "Report Style";
+"template.work_weekly.field.report_style.placeholder" = "Select report format";
+"template.work_weekly.field.report_style.option.concise" = "Concise";
+"template.work_weekly.field.report_style.option.detailed" = "Detailed";
+"template.work_weekly.field.report_style.option.data_driven" = "Data-Driven";
+"template.work_weekly.system_prompt" = "You are a professional workplace writing expert, skilled in organizing scattered work content into well-structured, focused weekly reports. Your report characteristics:\n1. Structured presentation: Organize by 'Completed → In Progress → Planned → Issues'\n2. Quantified results: Use data whenever possible\n3. Highlight value: Emphasize business impact and value of work\n4. Professional language: Use standard workplace expressions\n5. Controlled length: Concise yet complete";
+"template.work_weekly.user_prompt" = "Please generate a weekly report based on the following information:\n\n【Completed This Week】\n{{work_done}}\n\n【In Progress】\n{{work_progress}}\n\n【Next Week's Plan】\n{{next_week_plan}}\n\n【Issues & Suggestions】\n{{problems}}\n\nReport Style: {{report_style}}\n\nRequirements:\n1. Use professional workplace language\n2. Highlight work achievements and value\n3. Clear structure for quick review by leadership";
+
+/* Business Email */
+"template.work_email.name" = "Business Email Polish";
+"template.work_email.description" = "Transform casual content into professional business emails";
+"template.work_email.field.email_purpose.label" = "Email Purpose";
+"template.work_email.field.email_purpose.placeholder" = "e.g., request approval, report progress, schedule meeting";
+"template.work_email.field.main_content.label" = "Main Content";
+"template.work_email.field.main_content.placeholder" = "Describe what you want to express in your own words";
+"template.work_email.field.recipient.label" = "Recipient";
+"template.work_email.field.recipient.placeholder" = "e.g., supervisor, client, colleague";
+"template.work_email.field.recipient.option.supervisor" = "Supervisor/Manager";
+"template.work_email.field.recipient.option.client" = "Client/Partner";
+"template.work_email.field.recipient.option.colleague" = "Colleague/Peer";
+"template.work_email.field.recipient.option.subordinate" = "Subordinate/Team";
+"template.work_email.field.tone.label" = "Tone Style";
+"template.work_email.field.tone.placeholder" = "Select email tone";
+"template.work_email.field.tone.option.formal" = "Formal & Rigorous";
+"template.work_email.field.tone.option.friendly" = "Friendly & Professional";
+"template.work_email.field.tone.option.direct" = "Concise & Direct";
+"template.work_email.system_prompt" = "You are a seasoned business communication expert, skilled in writing various business emails. Your email characteristics:\n1. Get to the point: State purpose in opening paragraph\n2. Clear logic: Present points in order\n3. Appropriate tone: Adjust wording based on recipient\n4. Clear ending: State expected action or response\n5. Proper format: Include appropriate salutation and signature";
+"template.work_email.user_prompt" = "Please polish the following content into a professional business email:\n\nEmail Purpose: {{email_purpose}}\nMain Content: {{main_content}}\nRecipient Type: {{recipient}}\nTone Style: {{tone}}\n\nRequirements:\n1. Use appropriate salutation and signature\n2. Professional and appropriate language\n3. Clear structure with key points highlighted\n4. Clear ending stating expected response or action";
+
+/* Meeting Minutes */
+"template.work_meeting.name" = "Meeting Minutes";
+"template.work_meeting.description" = "Organize meeting content into structured minutes";
+"template.work_meeting.field.meeting_topic.label" = "Meeting Topic";
+"template.work_meeting.field.meeting_topic.placeholder" = "e.g., Q4 Planning Discussion";
+"template.work_meeting.field.meeting_content.label" = "Meeting Content";
+"template.work_meeting.field.meeting_content.placeholder" = "Paste meeting notes or describe main discussion points";
+"template.work_meeting.field.participants.label" = "Participants";
+"template.work_meeting.field.participants.placeholder" = "List meeting participants";
+"template.work_meeting.field.meeting_date.label" = "Meeting Date";
+"template.work_meeting.field.meeting_date.placeholder" = "e.g., January 15, 2024";
+"template.work_meeting.system_prompt" = "You are an experienced administrative professional, skilled in organizing meeting minutes. Your minutes characteristics:\n1. Complete structure: Time, location, participants, topics, conclusions, action items\n2. Highlight key points: Extract key decisions and consensus\n3. Clear action items: List specific tasks, owners, and deadlines\n4. Objective language: Accurate recording without subjective evaluation\n5. Standard format: Easy to archive and reference";
+"template.work_meeting.user_prompt" = "Please organize the following meeting content into structured minutes:\n\nMeeting Topic: {{meeting_topic}}\nMeeting Date: {{meeting_date}}\nParticipants: {{participants}}\n\nMeeting Content:\n{{meeting_content}}\n\nRequirements:\n1. Extract key discussion points and decisions\n2. Clearly list action items and owners\n3. Standard format for easy archiving";
+
+/* ========== Programming Templates ========== */
+
+/* Code Explainer */
+"template.code_explain.name" = "Code Explainer";
+"template.code_explain.description" = "Explain code functionality and logic in plain language";
+"template.code_explain.field.code.label" = "Code Content";
+"template.code_explain.field.code.placeholder" = "Paste the code to be explained";
+"template.code_explain.field.language.label" = "Programming Language";
+"template.code_explain.field.language.placeholder" = "Select the programming language";
+"template.code_explain.field.detail_level.label" = "Explanation Detail Level";
+"template.code_explain.field.detail_level.placeholder" = "Select level of detail";
+"template.code_explain.field.detail_level.option.brief" = "Brief Overview";
+"template.code_explain.field.detail_level.option.line_by_line" = "Line-by-Line";
+"template.code_explain.field.detail_level.option.deep" = "Deep Analysis";
+"template.code_explain.system_prompt" = "You are an experienced programmer and technical instructor, skilled at explaining complex code logic in plain language. Your explanation characteristics:\n1. Overview first: Explain overall function before details\n2. Use analogies: Help understanding with real-life examples\n3. Highlight key points: Point out important design patterns or techniques\n4. Note potential issues: Alert to pitfalls or caveats\n5. Improvement suggestions: Suggest better approaches if available";
+"template.code_explain.user_prompt" = "Please explain the following {{language}} code:\n\n```{{language}}\n{{code}}\n```\n\nExplanation Detail Level: {{detail_level}}\n\nRequirements:\n1. First summarize the overall function\n2. Explain key logic and design\n3. Point out notable techniques or issues\n4. Suggest improvements if applicable";
+
+/* Bug Fix Assistant */
+"template.code_debug.name" = "Bug Fix Assistant";
+"template.code_debug.description" = "Analyze code issues and provide fix solutions";
+"template.code_debug.field.buggy_code.label" = "Problem Code";
+"template.code_debug.field.buggy_code.placeholder" = "Paste the code with issues";
+"template.code_debug.field.error_message.label" = "Error Message";
+"template.code_debug.field.error_message.placeholder" = "Paste error message or describe abnormal behavior";
+"template.code_debug.field.expected_behavior.label" = "Expected Behavior";
+"template.code_debug.field.expected_behavior.placeholder" = "Describe what the code should do";
+"template.code_debug.field.language.label" = "Programming Language";
+"template.code_debug.field.language.placeholder" = "Select programming language";
+"template.code_debug.system_prompt" = "You are a senior software engineer, skilled at quickly locating and fixing code bugs. Your debugging approach:\n1. Root cause analysis: Find the fundamental cause, not surface symptoms\n2. Minimal change principle: Fix with smallest possible modification\n3. Defensive programming: Consider edge cases when fixing\n4. Testing suggestions: Provide methods to verify the fix\n5. Prevention measures: Suggest how to avoid similar issues";
+"template.code_debug.user_prompt" = "Please analyze and fix the following {{language}} code issue:\n\n【Problem Code】\n```{{language}}\n{{buggy_code}}\n```\n\n【Error Message】\n{{error_message}}\n\n【Expected Behavior】\n{{expected_behavior}}\n\nPlease provide:\n1. Problem cause analysis\n2. Complete fixed code\n3. Change explanation\n4. Testing suggestions";
+
+/* Code Optimization */
+"template.code_optimize.name" = "Code Optimization Suggestions";
+"template.code_optimize.description" = "Analyze code quality and provide optimization suggestions";
+"template.code_optimize.field.code.label" = "Code to Optimize";
+"template.code_optimize.field.code.placeholder" = "Paste the code to be optimized";
+"template.code_optimize.field.language.label" = "Programming Language";
+"template.code_optimize.field.language.placeholder" = "Select programming language";
+"template.code_optimize.field.focus.label" = "Optimization Focus";
+"template.code_optimize.field.focus.placeholder" = "Select optimization direction";
+"template.code_optimize.field.focus.option.performance" = "Performance";
+"template.code_optimize.field.focus.option.readability" = "Readability";
+"template.code_optimize.field.focus.option.security" = "Security";
+"template.code_optimize.field.focus.option.best_practices" = "Best Practices";
+"template.code_optimize.field.focus.option.comprehensive" = "Comprehensive Review";
+"template.code_optimize.system_prompt" = "You are a code quality expert, skilled in code review and refactoring. Your optimization suggestions characteristics:\n1. Comprehensive review: Analyze from performance, readability, maintainability perspectives\n2. Specific and actionable: Give concrete modification suggestions with code examples\n3. Trade-off analysis: Explain benefits and potential impact of optimizations\n4. Follow standards: Conform to language best practices and design patterns\n5. Prioritized: List suggestions by priority";
+"template.code_optimize.user_prompt" = "Please perform optimization analysis on the following {{language}} code:\n\n```{{language}}\n{{code}}\n```\n\nOptimization Focus: {{focus}}\n\nPlease provide:\n1. Code quality assessment\n2. Specific optimization suggestions (by priority)\n3. Optimized code examples\n4. Before/after comparison explanation";
+
+/* ========== Marketing Templates ========== */
+
+/* Product Description */
+"template.marketing_product.name" = "Product Description";
+"template.marketing_product.description" = "Generate attractive product description copy";
+"template.marketing_product.field.product_name.label" = "Product Name";
+"template.marketing_product.field.product_name.placeholder" = "Enter product name";
+"template.marketing_product.field.product_category.label" = "Product Category";
+"template.marketing_product.field.product_category.placeholder" = "e.g., skincare, electronics, apparel";
+"template.marketing_product.field.key_features.label" = "Key Selling Points";
+"template.marketing_product.field.key_features.placeholder" = "List 3-5 core selling points";
+"template.marketing_product.field.target_audience.label" = "Target Audience";
+"template.marketing_product.field.target_audience.placeholder" = "Describe target user group";
+"template.marketing_product.field.tone.label" = "Copy Style";
+"template.marketing_product.field.tone.placeholder" = "Select copy style";
+"template.marketing_product.field.tone.option.professional" = "Professional & Authoritative";
+"template.marketing_product.field.tone.option.warm" = "Warm & Friendly";
+"template.marketing_product.field.tone.option.youthful" = "Young & Energetic";
+"template.marketing_product.field.tone.option.luxury" = "Premium & Luxurious";
+"template.marketing_product.system_prompt" = "You are a seasoned product copywriter, skilled at writing product descriptions that resonate with consumers. Your copy characteristics:\n1. Benefit-oriented: Highlight value the product brings to users\n2. Scene immersion: Describe usage scenarios to create resonance\n3. Differentiation: Emphasize distinction from competitors\n4. Trust building: Appropriately include authority certifications or user reviews\n5. Call to action: Guide users toward purchase";
+"template.marketing_product.user_prompt" = "Please write a product description for the following:\n\nProduct Name: {{product_name}}\nProduct Category: {{product_category}}\nKey Selling Points: {{key_features}}\nTarget Audience: {{target_audience}}\nCopy Style: {{tone}}\n\nRequirements:\n1. 200-300 words\n2. Highlight core product value\n3. Match target audience's language style\n4. Include purchase guidance";
+
+/* Slogan Generator */
+"template.marketing_slogan.name" = "Slogan Generator";
+"template.marketing_slogan.description" = "Create concise and powerful brand slogans";
+"template.marketing_slogan.field.brand_name.label" = "Brand Name";
+"template.marketing_slogan.field.brand_name.placeholder" = "Enter brand name";
+"template.marketing_slogan.field.brand_positioning.label" = "Brand Positioning";
+"template.marketing_slogan.field.brand_positioning.placeholder" = "Describe brand's core positioning and value proposition";
+"template.marketing_slogan.field.keywords.label" = "Keywords";
+"template.marketing_slogan.field.keywords.placeholder" = "Keywords to convey, e.g., innovation, quality, warmth";
+"template.marketing_slogan.field.style.label" = "Style Requirements";
+"template.marketing_slogan.field.style.placeholder" = "Select slogan style";
+"template.marketing_slogan.field.style.option.concise" = "Concise & Powerful";
+"template.marketing_slogan.field.style.option.emotional" = "Warm & Heartfelt";
+"template.marketing_slogan.field.style.option.humorous" = "Humorous & Witty";
+"template.marketing_slogan.field.style.option.grand" = "Grand & Majestic";
+"template.marketing_slogan.system_prompt" = "You are a top advertising creative director, skilled at creating unforgettable slogans. Your creative principles:\n1. Concise: Good slogans are under 10 words\n2. Unique: Distinctive brand recognition\n3. Resonant: Touch target audience emotions\n4. Memorable: Easy to remember and spread\n5. Authentic: Highly aligned with brand positioning";
+"template.marketing_slogan.user_prompt" = "Please create 5 slogans for the following brand:\n\nBrand Name: {{brand_name}}\nBrand Positioning: {{brand_positioning}}\nKeywords: {{keywords}}\nStyle Requirements: {{style}}\n\nRequirements:\n1. Each slogan under 10 words\n2. Diverse styles for selection\n3. Easy to remember and pronounce\n4. Reflect core brand value";
+
+/* ========== Education Templates ========== */
+
+/* Knowledge Explainer */
+"template.edu_explain.name" = "Knowledge Explainer";
+"template.edu_explain.description" = "Explain complex concepts in easy-to-understand ways";
+"template.edu_explain.field.concept.label" = "Knowledge Point";
+"template.edu_explain.field.concept.placeholder" = "Enter the concept or knowledge point to explain";
+"template.edu_explain.field.subject.label" = "Subject Area";
+"template.edu_explain.field.subject.placeholder" = "e.g., Math, Physics, Economics";
+"template.edu_explain.field.audience_level.label" = "Audience Level";
+"template.edu_explain.field.audience_level.placeholder" = "Select comprehension level";
+"template.edu_explain.field.audience_level.option.elementary" = "Elementary School";
+"template.edu_explain.field.audience_level.option.middle_school" = "Middle School";
+"template.edu_explain.field.audience_level.option.high_school" = "High School";
+"template.edu_explain.field.audience_level.option.college" = "College";
+"template.edu_explain.field.audience_level.option.professional" = "Professional";
+"template.edu_explain.system_prompt" = "You are an excellent educator, skilled at explaining complex concepts in simple, understandable ways. Your teaching characteristics:\n1. Progressive: From known to unknown, simple to complex\n2. Vivid analogies: Use real-life examples for understanding\n3. Visual descriptions: Use text to describe visualizations when needed\n4. Emphasize key points: Highlight core essentials\n5. Practice reinforcement: Provide simple exercises or thought questions";
+"template.edu_explain.user_prompt" = "Please explain the following knowledge point in an easy-to-understand way:\n\nKnowledge Point: {{concept}}\nSubject Area: {{subject}}\nAudience Level: {{audience_level}}\n\nRequirements:\n1. Use language appropriate for the audience level\n2. Use real-life examples to aid understanding\n3. Highlight core points\n4. Provide 1-2 thought questions";
+
+/* Study Plan Generator */
+"template.edu_study_plan.name" = "Study Plan Generator";
+"template.edu_study_plan.description" = "Create personalized study plans and schedules";
+"template.edu_study_plan.field.learning_goal.label" = "Learning Goal";
+"template.edu_study_plan.field.learning_goal.placeholder" = "e.g., Master Python basics, Pass English proficiency test";
+"template.edu_study_plan.field.current_level.label" = "Current Level";
+"template.edu_study_plan.field.current_level.placeholder" = "Describe your current foundation";
+"template.edu_study_plan.field.available_time.label" = "Available Time";
+"template.edu_study_plan.field.available_time.placeholder" = "e.g., 2 hours daily, full weekends";
+"template.edu_study_plan.field.deadline.label" = "Target Deadline";
+"template.edu_study_plan.field.deadline.placeholder" = "e.g., 3 months, 6 months";
+"template.edu_study_plan.field.deadline.option.1month" = "1 Month";
+"template.edu_study_plan.field.deadline.option.3months" = "3 Months";
+"template.edu_study_plan.field.deadline.option.6months" = "6 Months";
+"template.edu_study_plan.field.deadline.option.1year" = "1 Year";
+"template.edu_study_plan.system_prompt" = "You are a professional study planner, skilled at creating efficient, actionable study plans. Your planning characteristics:\n1. Goal decomposition: Break big goals into quantifiable small goals\n2. Progressive: From easy to difficult, build knowledge system\n3. Time management: Reasonably allocate study time\n4. Regular assessment: Set milestone checkpoints\n5. Flexible adjustment: Reserve buffer time";
+"template.edu_study_plan.user_prompt" = "Please create a detailed study plan for me:\n\nLearning Goal: {{learning_goal}}\nCurrent Level: {{current_level}}\nAvailable Time: {{available_time}}\nTarget Deadline: {{deadline}}\n\nRequirements:\n1. Create phased plan\n2. Clear learning content and goals for each phase\n3. Recommend learning resources\n4. Set assessment standards\n5. Provide time management suggestions";
+
+/* Mistake Analysis Assistant */
+"template.edu_mistake_analysis.name" = "Mistake Analysis Assistant";
+"template.edu_mistake_analysis.description" = "Analyze mistake causes and provide targeted review suggestions";
+"template.edu_mistake_analysis.field.question.label" = "Question Content";
+"template.edu_mistake_analysis.field.question.placeholder" = "Paste the complete question";
+"template.edu_mistake_analysis.field.wrong_answer.label" = "Your Answer";
+"template.edu_mistake_analysis.field.wrong_answer.placeholder" = "Your selected or written answer";
+"template.edu_mistake_analysis.field.correct_answer.label" = "Correct Answer";
+"template.edu_mistake_analysis.field.correct_answer.placeholder" = "Standard answer (if known)";
+"template.edu_mistake_analysis.field.subject.label" = "Subject";
+"template.edu_mistake_analysis.field.subject.placeholder" = "Select subject";
+"template.edu_mistake_analysis.field.subject.option.math" = "Math";
+"template.edu_mistake_analysis.field.subject.option.physics" = "Physics";
+"template.edu_mistake_analysis.field.subject.option.chemistry" = "Chemistry";
+"template.edu_mistake_analysis.field.subject.option.english" = "English";
+"template.edu_mistake_analysis.field.subject.option.chinese" = "Chinese";
+"template.edu_mistake_analysis.field.subject.option.other" = "Other";
+"template.edu_mistake_analysis.system_prompt" = "You are an experienced teacher, skilled at analyzing student mistakes and providing targeted guidance. Your analysis approach:\n1. Identify error cause: Is it knowledge gap, misunderstanding, or carelessness\n2. Explain knowledge: Detailed explanation of relevant knowledge points\n3. Solution approach: Show correct problem-solving steps\n4. Apply learning: Provide similar practice problems\n5. Review suggestions: Targeted review direction";
+"template.edu_mistake_analysis.user_prompt" = "Please help me analyze the following mistake:\n\n【Question】\n{{question}}\n\n【My Answer】\n{{wrong_answer}}\n\n【Correct Answer】\n{{correct_answer}}\n\n【Subject】\n{{subject}}\n\nPlease provide:\n1. Error cause analysis\n2. Related knowledge point explanation\n3. Correct solution steps\n4. Similar problem examples\n5. Review suggestions";
+
+/* ========== Creative Writing Templates ========== */
+
+/* Story Creation */
+"template.creative_story.name" = "Story Creator";
+"template.creative_story.description" = "Generate engaging short stories based on settings";
+"template.creative_story.field.theme.label" = "Story Theme";
+"template.creative_story.field.theme.placeholder" = "e.g., friendship, adventure, growth";
+"template.creative_story.field.setting.label" = "Story Setting";
+"template.creative_story.field.setting.placeholder" = "e.g., modern city, ancient dynasty, future world";
+"template.creative_story.field.characters.label" = "Main Characters";
+"template.creative_story.field.characters.placeholder" = "Describe the main characters";
+"template.creative_story.field.length.label" = "Story Length";
+"template.creative_story.field.length.placeholder" = "Select story length";
+"template.creative_story.field.length.option.micro" = "Micro (100 words)";
+"template.creative_story.field.length.option.short" = "Short (500 words)";
+"template.creative_story.field.length.option.medium" = "Medium (1000 words)";
+"template.creative_story.system_prompt" = "You are a creative story writer, skilled at creating captivating stories. Your story characteristics:\n1. Engaging opening: Hook readers from the first sentence\n2. Plot twists: Conflict, turns, and climax\n3. Vivid characters: Characters with personality and motivation\n4. Powerful ending: Thought-provoking or surprising\n5. Deep themes: Convey positive values";
+"template.creative_story.user_prompt" = "Please create a story based on the following settings:\n\nStory Theme: {{theme}}\nStory Setting: {{setting}}\nMain Characters: {{characters}}\nStory Length: {{length}}\n\nRequirements:\n1. Complete plot with beginning, development, climax, and resolution\n2. Vivid character portrayal\n3. Smooth language with visual imagery\n4. Thought-provoking ending";
+
+/* Poetry Creation */
+"template.creative_poem.name" = "Poetry Creator";
+"template.creative_poem.description" = "Create poetry based on theme and style";
+"template.creative_poem.field.theme.label" = "Poetry Theme";
+"template.creative_poem.field.theme.placeholder" = "e.g., nostalgia, love, nature";
+"template.creative_poem.field.style.label" = "Poetry Style";
+"template.creative_poem.field.style.placeholder" = "Select poetry style";
+"template.creative_poem.field.style.option.modern" = "Modern Poetry";
+"template.creative_poem.field.style.option.classical" = "Classical Style";
+"template.creative_poem.field.style.option.haiku" = "Haiku";
+"template.creative_poem.field.style.option.limerick" = "Limerick";
+"template.creative_poem.field.style.option.prose" = "Prose Poetry";
+"template.creative_poem.field.mood.label" = "Emotional Tone";
+"template.creative_poem.field.mood.placeholder" = "Select emotional tone";
+"template.creative_poem.field.mood.option.joyful" = "Joyful & Bright";
+"template.creative_poem.field.mood.option.melancholic" = "Melancholic & Tender";
+"template.creative_poem.field.mood.option.heroic" = "Bold & Heroic";
+"template.creative_poem.field.mood.option.serene" = "Serene & Peaceful";
+"template.creative_poem.field.mood.option.profound" = "Deep & Profound";
+"template.creative_poem.field.keywords.label" = "Key Imagery";
+"template.creative_poem.field.keywords.placeholder" = "e.g., moon, flowing water, falling leaves";
+"template.creative_poem.system_prompt" = "You are a talented poet, skilled in various poetry styles. Your poetry characteristics:\n1. Rich imagery: Good use of metaphor and symbolism\n2. Beautiful rhythm: Attention to sound and cadence\n3. Sincere emotion: Touching through genuine feeling\n4. Profound atmosphere: Leaving room for imagination\n5. Refined language: Every word carefully chosen";
+"template.creative_poem.user_prompt" = "Please create a poem based on the following requirements:\n\nPoetry Theme: {{theme}}\nPoetry Style: {{style}}\nEmotional Tone: {{mood}}\nKey Imagery: {{keywords}}\n\nRequirements:\n1. Match the characteristics of the selected style\n2. Clear imagery, sincere emotion\n3. Beautiful language with rhythm\n4. Profound atmosphere, inspiring imagination";
+
+/* Style Rewrite */
+"template.creative_rewrite.name" = "Style Rewriter";
+"template.creative_rewrite.description" = "Rewrite copy in different styles";
+"template.creative_rewrite.field.original_text.label" = "Original Text";
+"template.creative_rewrite.field.original_text.placeholder" = "Paste the text to be rewritten";
+"template.creative_rewrite.field.target_style.label" = "Target Style";
+"template.creative_rewrite.field.target_style.placeholder" = "Select rewrite style";
+"template.creative_rewrite.field.target_style.option.literary" = "Literary & Fresh";
+"template.creative_rewrite.field.target_style.option.humorous" = "Humorous & Funny";
+"template.creative_rewrite.field.target_style.option.formal" = "Formal Business";
+"template.creative_rewrite.field.target_style.option.internet" = "Internet Slang";
+"template.creative_rewrite.field.target_style.option.classical" = "Classical & Elegant";
+"template.creative_rewrite.field.target_style.option.simple" = "Simple & Direct";
+"template.creative_rewrite.field.keep_meaning.label" = "Meaning Retention";
+"template.creative_rewrite.field.keep_meaning.placeholder" = "Select how much of original meaning to keep";
+"template.creative_rewrite.field.keep_meaning.option.full" = "Fully Retain Original Meaning";
+"template.creative_rewrite.field.keep_meaning.option.core" = "Keep Core Meaning";
+"template.creative_rewrite.field.keep_meaning.option.free" = "Free Interpretation";
+"template.creative_rewrite.system_prompt" = "You are a copy rewriting expert, skilled at expressing the same content in different styles. Your rewriting characteristics:\n1. Distinctive style: Accurately grasp target style characteristics\n2. Preserve core: Don't lose key information from original\n3. Natural flow: Rewritten copy reads naturally\n4. Creative bonus: Add highlights while preserving meaning\n5. Scene appropriate: Match usage scenarios of target style";
+"template.creative_rewrite.user_prompt" = "Please rewrite the following text in {{target_style}} style:\n\n【Original Text】\n{{original_text}}\n\n【Meaning Retention】\n{{keep_meaning}}\n\nRequirements:\n1. Accurately capture {{target_style}} style characteristics\n2. Handle original meaning according to retention requirement\n3. Rewritten text should be natural and smooth\n4. Provide 2-3 different versions for selection";
+
+/* Social Media Caption */
+"template.creative_moments.name" = "Social Media Caption";
+"template.creative_moments.description" = "Generate stylish social media captions";
+"template.creative_moments.field.scene.label" = "Scene Description";
+"template.creative_moments.field.scene.placeholder" = "e.g., travel check-in, food sharing, daily mood";
+"template.creative_moments.field.mood.label" = "Mood State";
+"template.creative_moments.field.mood.placeholder" = "e.g., happy, reflective, relaxed";
+"template.creative_moments.field.style.label" = "Caption Style";
+"template.creative_moments.field.style.placeholder" = "Select caption style";
+"template.creative_moments.field.style.option.literary" = "Literary & Fresh";
+"template.creative_moments.field.style.option.humorous" = "Humorous & Funny";
+"template.creative_moments.field.style.option.minimal" = "Minimal & Elegant";
+"template.creative_moments.field.style.option.inspirational" = "Inspirational & Positive";
+"template.creative_moments.field.style.option.sentimental" = "Sentimental & Poetic";
+"template.creative_moments.field.length.label" = "Caption Length";
+"template.creative_moments.field.length.placeholder" = "Select length";
+"template.creative_moments.field.length.option.one_line" = "One Line";
+"template.creative_moments.field.length.option.short" = "Short (2-3 sentences)";
+"template.creative_moments.field.length.option.paragraph" = "Paragraph";
+"template.creative_moments.system_prompt" = "You are a social media caption expert, skilled at writing captions that make people want to like. Your caption characteristics:\n1. Stylish: Not cliché, with good taste\n2. Resonant: Can relate to friends' feelings\n3. Unique: Shows distinctive personal style\n4. Subtle: Doesn't say too much, leaves imagination\n5. Photo-friendly: Complements the image well";
+"template.creative_moments.user_prompt" = "Please generate 5 social media captions for the following scene:\n\nScene Description: {{scene}}\nMood State: {{mood}}\nCaption Style: {{style}}\nCaption Length: {{length}}\n\nRequirements:\n1. Match {{style}} style\n2. Keep within {{length}} range\n3. Stylish, not cliché\n4. Suitable to post with photo\n5. Provide 5 different versions";

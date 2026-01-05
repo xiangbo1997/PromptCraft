@@ -43,19 +43,19 @@ struct MenuBarPopover: View {
             
             // MARK: - Footer Actions
             VStack(spacing: Spacing.sm) {
-                Button(action: { /* TODO: Open main app window */ NSApp.activate(ignoringOtherApps: true) }) {
+                Button(action: { appState.openMainWindow() }) {
                     HStack {
                         Image(systemName: "app.fill")
                         Text("Open Main Window")
                         Spacer()
-                        Text("⌘+\(appState.hotkeyService.togglePanelKeyCombo.key.rawValue.uppercased())") // Example hint
+                        Text("⌘⇧P")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
                 }
                 .buttonStyle(.plain)
-                
-                Button(action: { /* TODO: Open settings */ NSApp.activate(ignoringOtherApps: true) }) {
+
+                Button(action: { appState.navigateToTab(.settings) }) {
                     HStack {
                         Image(systemName: "gearshape.fill")
                         Text("Preferences...")
@@ -69,7 +69,7 @@ struct MenuBarPopover: View {
                 Button(action: { NSApp.terminate(nil) }) {
                     HStack {
                         Image(systemName: "power")
-                        Text("Quit PromptCraft")
+                        Text("Quit SparkPrompt")
                         Spacer()
                     }
                 }

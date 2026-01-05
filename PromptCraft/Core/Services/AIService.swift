@@ -7,11 +7,12 @@ enum AIError: LocalizedError {
     case invalidResponse
     case emptyResponse
     case httpError(statusCode: Int)
-    case networkError(Error)
+    case networkError(String)
     case timeout
     case rateLimitExceeded
     case unauthorized
-    
+    case configurationError(String)
+
     var errorDescription: String? {
         switch self {
         case .invalidAPIKey:
@@ -22,14 +23,16 @@ enum AIError: LocalizedError {
             return "服务器返回空内容"
         case .httpError(let code):
             return "HTTP 错误: \(code)"
-        case .networkError(let error):
-            return "网络错误: \(error.localizedDescription)"
+        case .networkError(let message):
+            return "网络错误: \(message)"
         case .timeout:
             return "请求超时"
         case .rateLimitExceeded:
             return "API 调用次数超限或余额不足 (429)"
         case .unauthorized:
             return "API Key 错误或未授权 (401)"
+        case .configurationError(let message):
+            return message
         }
     }
 }

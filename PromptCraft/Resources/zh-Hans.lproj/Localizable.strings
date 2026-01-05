@@ -133,3 +133,414 @@
 "toast.favorited" = "已添加到收藏";
 "toast.unfavorited" = "已取消收藏";
 "toast.error.generic" = "发生错误";
+
+/* ========== 场景分类 ========== */
+"scene.category.xiaohongshu" = "小红书运营";
+"scene.category.xiaohongshu.description" = "小红书内容创作与运营";
+"scene.category.workplace" = "职场效率";
+"scene.category.workplace.description" = "提升工作效率的工具";
+"scene.category.programming" = "编程辅助";
+"scene.category.programming.description" = "代码开发与调试助手";
+"scene.category.marketing" = "营销文案";
+"scene.category.marketing.description" = "营销与广告文案创作";
+"scene.category.education" = "教育学习";
+"scene.category.education.description" = "学习辅导与知识讲解";
+"scene.category.creative" = "创意写作";
+"scene.category.creative.description" = "创意内容与文学创作";
+
+/* ========== 通用标签 ========== */
+"template.tag.title" = "标题";
+"template.tag.viral" = "爆款";
+"template.tag.eyecatching" = "吸睛";
+"template.tag.recommend" = "种草";
+"template.tag.copywriting" = "文案";
+"template.tag.conversion" = "转化";
+"template.tag.comment" = "评论";
+"template.tag.interaction" = "互动";
+"template.tag.reply" = "回复";
+"template.tag.weekly_report" = "周报";
+"template.tag.report" = "汇报";
+"template.tag.workplace" = "职场";
+"template.tag.email" = "邮件";
+"template.tag.business" = "商务";
+"template.tag.communication" = "沟通";
+"template.tag.meeting" = "会议";
+"template.tag.minutes" = "纪要";
+"template.tag.organize" = "整理";
+"template.tag.code" = "代码";
+"template.tag.explain" = "解释";
+"template.tag.learning" = "学习";
+"template.tag.bug" = "Bug";
+"template.tag.debug" = "调试";
+"template.tag.fix" = "修复";
+"template.tag.optimize" = "优化";
+"template.tag.refactor" = "重构";
+"template.tag.code_quality" = "代码质量";
+"template.tag.product" = "产品";
+"template.tag.description" = "描述";
+"template.tag.ecommerce" = "电商";
+"template.tag.slogan" = "广告语";
+"template.tag.brand" = "品牌";
+"template.tag.creative" = "创意";
+"template.tag.education" = "教育";
+"template.tag.plan" = "计划";
+"template.tag.time_management" = "时间管理";
+"template.tag.mistake" = "错题";
+"template.tag.analysis" = "分析";
+"template.tag.review" = "复习";
+"template.tag.story" = "故事";
+"template.tag.writing" = "写作";
+"template.tag.poem" = "诗歌";
+"template.tag.literature" = "文学";
+"template.tag.rewrite" = "改写";
+"template.tag.style" = "风格";
+"template.tag.moments" = "朋友圈";
+"template.tag.social" = "社交";
+
+/* ========== 通用编程语言选项 ========== */
+"template.common.lang.swift" = "Swift";
+"template.common.lang.python" = "Python";
+"template.common.lang.javascript" = "JavaScript";
+"template.common.lang.typescript" = "TypeScript";
+"template.common.lang.java" = "Java";
+"template.common.lang.go" = "Go";
+"template.common.lang.rust" = "Rust";
+"template.common.lang.other" = "其他";
+
+/* ========== 小红书模板 ========== */
+
+/* 爆款标题生成 */
+"template.xhs_title.name" = "爆款标题生成";
+"template.xhs_title.description" = "一键生成吸睛的小红书标题，提升点击率";
+"template.xhs_title.field.product.label" = "产品/主题";
+"template.xhs_title.field.product.placeholder" = "例如：美白面膜、旅行攻略、穿搭分享";
+"template.xhs_title.field.selling_point.label" = "核心卖点";
+"template.xhs_title.field.selling_point.placeholder" = "例如：平价好用、效果惊艳、小众宝藏";
+"template.xhs_title.field.style.label" = "标题风格";
+"template.xhs_title.field.style.placeholder" = "选择标题风格";
+"template.xhs_title.field.style.option.recommend" = "种草安利";
+"template.xhs_title.field.style.option.review" = "测评对比";
+"template.xhs_title.field.style.option.tutorial" = "教程攻略";
+"template.xhs_title.field.style.option.emotional" = "情绪共鸣";
+"template.xhs_title.field.style.option.suspense" = "悬念吸引";
+"template.xhs_title.system_prompt" = "你是一位资深小红书运营专家，精通爆款标题的创作技巧。你深谙小红书用户的阅读习惯和心理，擅长使用以下技巧：\n1. 数字法则：使用具体数字增加可信度\n2. 情绪共鸣：触发用户的好奇心、焦虑或期待\n3. 对比反差：制造认知冲突吸引注意\n4. 身份认同：让用户产生「这说的就是我」的感觉\n5. 紧迫感：营造限时、稀缺的氛围\n\n请根据用户提供的产品和卖点，生成5个不同风格的爆款标题。每个标题控制在20字以内，要朗朗上口、有记忆点。";
+"template.xhs_title.user_prompt" = "请为以下内容生成5个小红书爆款标题：\n\n产品/主题：{{product}}\n核心卖点：{{selling_point}}\n标题风格：{{style}}\n\n要求：\n1. 每个标题20字以内\n2. 使用emoji增加视觉吸引力\n3. 符合小红书用户的阅读习惯\n4. 突出核心卖点";
+"template.xhs_title.example_output" = "1. 💰 30块钱的美白面膜，效果吊打大牌！\n2. 🔥 姐妹们冲！这个面膜用完皮肤会发光\n3. ❓ 为什么有钱人都在偷偷用这款面膜？\n4. 😱 敷了7天，同事问我是不是打了水光针\n5. 📢 学生党必入！美白面膜界的性价比天花板";
+
+/* 种草文案 */
+"template.xhs_recommend.name" = "种草文案生成";
+"template.xhs_recommend.description" = "生成真实感强、转化率高的种草文案";
+"template.xhs_recommend.field.product_name.label" = "产品名称";
+"template.xhs_recommend.field.product_name.placeholder" = "例如：雅诗兰黛小棕瓶";
+"template.xhs_recommend.field.product_features.label" = "产品特点";
+"template.xhs_recommend.field.product_features.placeholder" = "例如：抗老、修复、保湿";
+"template.xhs_recommend.field.target_audience.label" = "目标人群";
+"template.xhs_recommend.field.target_audience.placeholder" = "例如：25-35岁轻熟肌";
+"template.xhs_recommend.field.target_audience.default" = "年轻女性";
+"template.xhs_recommend.field.price_range.label" = "价格区间";
+"template.xhs_recommend.field.price_range.placeholder" = "例如：200-300元";
+"template.xhs_recommend.system_prompt" = "你是一位经验丰富的小红书博主，擅长写真实、有感染力的种草文案。你的文案风格特点：\n1. 口语化表达，像朋友聊天一样自然\n2. 真实分享使用体验，有细节描写\n3. 适当使用emoji增加可读性\n4. 结构清晰：开头吸引→中间体验→结尾总结\n5. 避免过度营销感，保持真诚\n\n请用真实用户的口吻来写种草文案，让读者产生信任感和购买欲望。";
+"template.xhs_recommend.user_prompt" = "请为以下产品写一篇小红书种草文案：\n\n产品名称：{{product_name}}\n产品特点：{{product_features}}\n目标人群：{{target_audience}}\n价格区间：{{price_range}}\n\n要求：\n1. 300-500字\n2. 使用第一人称真实体验风格\n3. 包含使用前后对比\n4. 自然融入产品卖点\n5. 结尾有购买建议";
+
+/* 评论区回复 */
+"template.xhs_reply.name" = "评论区神回复";
+"template.xhs_reply.description" = "生成有趣、有互动感的评论回复";
+"template.xhs_reply.field.comment_content.label" = "用户评论";
+"template.xhs_reply.field.comment_content.placeholder" = "粘贴用户的评论内容";
+"template.xhs_reply.field.reply_tone.label" = "回复语气";
+"template.xhs_reply.field.reply_tone.placeholder" = "选择回复风格";
+"template.xhs_reply.field.reply_tone.option.friendly" = "亲切友好";
+"template.xhs_reply.field.reply_tone.option.humorous" = "幽默搞笑";
+"template.xhs_reply.field.reply_tone.option.professional" = "专业认真";
+"template.xhs_reply.field.reply_tone.option.cute" = "俏皮可爱";
+"template.xhs_reply.field.brand_info.label" = "品牌/账号信息";
+"template.xhs_reply.field.brand_info.placeholder" = "简单描述你的账号定位";
+"template.xhs_reply.system_prompt" = "你是一位善于互动的小红书博主，擅长写出让粉丝感到被重视的回复。回复特点：\n1. 真诚有温度，让人感到被尊重\n2. 根据评论内容给出有价值的回应\n3. 适当使用表情增加亲和力\n4. 引导进一步互动（如提问、邀请关注等）\n5. 处理负面评论时保持专业和大度";
+"template.xhs_reply.user_prompt" = "请根据以下用户评论生成3条不同风格的回复：\n\n用户评论：{{comment_content}}\n回复语气：{{reply_tone}}\n账号信息：{{brand_info}}\n\n要求：\n1. 每条回复50字以内\n2. 体现真诚互动\n3. 鼓励用户继续关注";
+
+/* ========== 职场效率模板 ========== */
+
+/* 周报生成 */
+"template.work_weekly.name" = "周报生成器";
+"template.work_weekly.description" = "快速生成结构清晰、内容专业的工作周报";
+"template.work_weekly.field.work_done.label" = "本周完成的工作";
+"template.work_weekly.field.work_done.placeholder" = "列出本周完成的主要工作，用逗号或换行分隔";
+"template.work_weekly.field.work_progress.label" = "进行中的工作";
+"template.work_weekly.field.work_progress.placeholder" = "列出正在进行的工作及进度";
+"template.work_weekly.field.next_week_plan.label" = "下周计划";
+"template.work_weekly.field.next_week_plan.placeholder" = "列出下周的工作计划";
+"template.work_weekly.field.problems.label" = "遇到的问题";
+"template.work_weekly.field.problems.placeholder" = "工作中遇到的困难或需要协调的事项";
+"template.work_weekly.field.report_style.label" = "周报风格";
+"template.work_weekly.field.report_style.placeholder" = "选择周报格式";
+"template.work_weekly.field.report_style.option.concise" = "简洁版";
+"template.work_weekly.field.report_style.option.detailed" = "详细版";
+"template.work_weekly.field.report_style.option.data_driven" = "数据驱动版";
+"template.work_weekly.system_prompt" = "你是一位职场写作专家，擅长将零散的工作内容整理成结构清晰、重点突出的周报。你的周报特点：\n1. 结构化呈现：按照「已完成→进行中→计划→问题」的逻辑组织\n2. 量化成果：尽可能用数据说话\n3. 突出价值：强调工作的业务影响和价值\n4. 语言专业：使用职场通用的表达方式\n5. 控制篇幅：简洁但信息完整";
+"template.work_weekly.user_prompt" = "请根据以下信息生成一份工作周报：\n\n【本周完成】\n{{work_done}}\n\n【进行中】\n{{work_progress}}\n\n【下周计划】\n{{next_week_plan}}\n\n【问题与建议】\n{{problems}}\n\n周报风格：{{report_style}}\n\n要求：\n1. 使用专业的职场语言\n2. 突出工作成果和价值\n3. 结构清晰，便于领导快速了解";
+
+/* 商务邮件 */
+"template.work_email.name" = "商务邮件润色";
+"template.work_email.description" = "将口语化内容转化为专业的商务邮件";
+"template.work_email.field.email_purpose.label" = "邮件目的";
+"template.work_email.field.email_purpose.placeholder" = "例如：请求批准、汇报进度、约会议";
+"template.work_email.field.main_content.label" = "主要内容";
+"template.work_email.field.main_content.placeholder" = "用自己的话描述要表达的内容";
+"template.work_email.field.recipient.label" = "收件人";
+"template.work_email.field.recipient.placeholder" = "例如：领导、客户、同事";
+"template.work_email.field.recipient.option.supervisor" = "领导/上级";
+"template.work_email.field.recipient.option.client" = "客户/合作方";
+"template.work_email.field.recipient.option.colleague" = "同事/平级";
+"template.work_email.field.recipient.option.subordinate" = "下属/团队";
+"template.work_email.field.tone.label" = "语气风格";
+"template.work_email.field.tone.placeholder" = "选择邮件语气";
+"template.work_email.field.tone.option.formal" = "正式严谨";
+"template.work_email.field.tone.option.friendly" = "友好专业";
+"template.work_email.field.tone.option.direct" = "简洁直接";
+"template.work_email.system_prompt" = "你是一位资深的商务沟通专家，擅长撰写各类商务邮件。你的邮件特点：\n1. 开门见山，首段说明目的\n2. 逻辑清晰，分点陈述\n3. 语气得体，根据收件人调整措辞\n4. 结尾明确，说清期望的行动或回复\n5. 格式规范，包含恰当的称呼和落款";
+"template.work_email.user_prompt" = "请将以下内容润色为一封专业的商务邮件：\n\n邮件目的：{{email_purpose}}\n主要内容：{{main_content}}\n收件人类型：{{recipient}}\n语气风格：{{tone}}\n\n要求：\n1. 使用恰当的称呼和落款\n2. 语言专业、措辞得体\n3. 结构清晰、重点突出\n4. 结尾明确期望的回应或行动";
+
+/* 会议纪要 */
+"template.work_meeting.name" = "会议纪要整理";
+"template.work_meeting.description" = "将会议内容整理成结构化的会议纪要";
+"template.work_meeting.field.meeting_topic.label" = "会议主题";
+"template.work_meeting.field.meeting_topic.placeholder" = "例如：Q4季度规划讨论会";
+"template.work_meeting.field.meeting_content.label" = "会议内容";
+"template.work_meeting.field.meeting_content.placeholder" = "粘贴会议记录或描述讨论的主要内容";
+"template.work_meeting.field.participants.label" = "参会人员";
+"template.work_meeting.field.participants.placeholder" = "列出参会人员";
+"template.work_meeting.field.meeting_date.label" = "会议时间";
+"template.work_meeting.field.meeting_date.placeholder" = "例如：2024年1月15日";
+"template.work_meeting.system_prompt" = "你是一位经验丰富的行政专员，擅长整理会议纪要。你的会议纪要特点：\n1. 结构完整：时间、地点、参会人、议题、结论、待办\n2. 重点突出：提炼关键决策和共识\n3. 待办明确：列出具体的行动项、负责人和截止时间\n4. 语言客观：准确记录而非主观评价\n5. 格式规范：便于存档和查阅";
+"template.work_meeting.user_prompt" = "请将以下会议内容整理成结构化的会议纪要：\n\n会议主题：{{meeting_topic}}\n会议时间：{{meeting_date}}\n参会人员：{{participants}}\n\n会议内容：\n{{meeting_content}}\n\n要求：\n1. 提炼关键讨论点和决策\n2. 明确待办事项和负责人\n3. 格式规范、便于存档";
+
+/* ========== 编程辅助模板 ========== */
+
+/* 代码解释 */
+"template.code_explain.name" = "代码解释器";
+"template.code_explain.description" = "用通俗易懂的语言解释代码的功能和逻辑";
+"template.code_explain.field.code.label" = "代码内容";
+"template.code_explain.field.code.placeholder" = "粘贴需要解释的代码";
+"template.code_explain.field.language.label" = "编程语言";
+"template.code_explain.field.language.placeholder" = "选择代码的编程语言";
+"template.code_explain.field.detail_level.label" = "解释详细程度";
+"template.code_explain.field.detail_level.placeholder" = "选择解释的详细程度";
+"template.code_explain.field.detail_level.option.brief" = "简要概述";
+"template.code_explain.field.detail_level.option.line_by_line" = "逐行解释";
+"template.code_explain.field.detail_level.option.deep" = "深入分析";
+"template.code_explain.system_prompt" = "你是一位经验丰富的程序员和技术讲师，擅长用通俗易懂的语言解释复杂的代码逻辑。你的解释特点：\n1. 先总后分：先说整体功能，再逐部分解释\n2. 类比说明：用生活中的例子帮助理解\n3. 重点标注：指出关键的设计模式或技巧\n4. 潜在问题：提示可能的坑或注意事项\n5. 改进建议：如果有更好的写法，给出建议";
+"template.code_explain.user_prompt" = "请解释以下{{language}}代码：\n\n```{{language}}\n{{code}}\n```\n\n解释详细程度：{{detail_level}}\n\n要求：\n1. 先概述代码的整体功能\n2. 解释关键的逻辑和设计\n3. 指出值得注意的技巧或问题\n4. 如有改进空间，给出建议";
+
+/* Bug修复 */
+"template.code_debug.name" = "Bug 修复助手";
+"template.code_debug.description" = "分析代码问题，提供修复方案";
+"template.code_debug.field.buggy_code.label" = "问题代码";
+"template.code_debug.field.buggy_code.placeholder" = "粘贴出现问题的代码";
+"template.code_debug.field.error_message.label" = "错误信息";
+"template.code_debug.field.error_message.placeholder" = "粘贴报错信息或描述异常行为";
+"template.code_debug.field.expected_behavior.label" = "期望行为";
+"template.code_debug.field.expected_behavior.placeholder" = "描述代码应该实现的功能";
+"template.code_debug.field.language.label" = "编程语言";
+"template.code_debug.field.language.placeholder" = "选择编程语言";
+"template.code_debug.system_prompt" = "你是一位资深的软件工程师，擅长快速定位和修复代码bug。你的调试方法：\n1. 根本原因分析：找出问题的根本原因，而非表面症状\n2. 最小修改原则：用最小的改动修复问题\n3. 防御性编程：修复时考虑边界情况\n4. 测试建议：提供验证修复的测试方法\n5. 预防措施：建议如何避免类似问题";
+"template.code_debug.user_prompt" = "请帮我分析和修复以下{{language}}代码的问题：\n\n【问题代码】\n```{{language}}\n{{buggy_code}}\n```\n\n【错误信息】\n{{error_message}}\n\n【期望行为】\n{{expected_behavior}}\n\n请提供：\n1. 问题原因分析\n2. 修复后的完整代码\n3. 修改说明\n4. 测试建议";
+
+/* 代码优化 */
+"template.code_optimize.name" = "代码优化建议";
+"template.code_optimize.description" = "分析代码质量，提供优化建议";
+"template.code_optimize.field.code.label" = "待优化代码";
+"template.code_optimize.field.code.placeholder" = "粘贴需要优化的代码";
+"template.code_optimize.field.language.label" = "编程语言";
+"template.code_optimize.field.language.placeholder" = "选择编程语言";
+"template.code_optimize.field.focus.label" = "优化重点";
+"template.code_optimize.field.focus.placeholder" = "选择优化方向";
+"template.code_optimize.field.focus.option.performance" = "性能优化";
+"template.code_optimize.field.focus.option.readability" = "可读性";
+"template.code_optimize.field.focus.option.security" = "安全性";
+"template.code_optimize.field.focus.option.best_practices" = "最佳实践";
+"template.code_optimize.field.focus.option.comprehensive" = "全面审查";
+"template.code_optimize.system_prompt" = "你是一位代码质量专家，擅长代码审查和重构。你的优化建议特点：\n1. 全面审视：从性能、可读性、可维护性多角度分析\n2. 具体可行：给出具体的修改建议和代码示例\n3. 权衡取舍：说明优化的收益和潜在影响\n4. 遵循规范：符合语言的最佳实践和设计模式\n5. 循序渐进：按优先级排列建议";
+"template.code_optimize.user_prompt" = "请对以下{{language}}代码进行优化分析：\n\n```{{language}}\n{{code}}\n```\n\n优化重点：{{focus}}\n\n请提供：\n1. 代码质量评估\n2. 具体的优化建议（按优先级排列）\n3. 优化后的代码示例\n4. 优化前后的对比说明";
+
+/* ========== 营销文案模板 ========== */
+
+/* 产品描述 */
+"template.marketing_product.name" = "产品描述文案";
+"template.marketing_product.description" = "生成有吸引力的产品描述文案";
+"template.marketing_product.field.product_name.label" = "产品名称";
+"template.marketing_product.field.product_name.placeholder" = "输入产品名称";
+"template.marketing_product.field.product_category.label" = "产品类型";
+"template.marketing_product.field.product_category.placeholder" = "例如：护肤品、电子产品、服装";
+"template.marketing_product.field.key_features.label" = "核心卖点";
+"template.marketing_product.field.key_features.placeholder" = "列出3-5个产品的核心卖点";
+"template.marketing_product.field.target_audience.label" = "目标人群";
+"template.marketing_product.field.target_audience.placeholder" = "描述目标用户群体";
+"template.marketing_product.field.tone.label" = "文案风格";
+"template.marketing_product.field.tone.placeholder" = "选择文案风格";
+"template.marketing_product.field.tone.option.professional" = "专业权威";
+"template.marketing_product.field.tone.option.warm" = "亲切温暖";
+"template.marketing_product.field.tone.option.youthful" = "年轻活力";
+"template.marketing_product.field.tone.option.luxury" = "高端奢华";
+"template.marketing_product.system_prompt" = "你是一位资深的产品文案策划，擅长撰写能打动消费者的产品描述。你的文案特点：\n1. 利益导向：突出产品能为用户带来的价值\n2. 场景代入：描绘使用场景，引发共鸣\n3. 差异化：强调与竞品的区别\n4. 信任背书：适当引入权威认证或用户口碑\n5. 行动号召：引导用户采取购买行动";
+"template.marketing_product.user_prompt" = "请为以下产品撰写一段产品描述文案：\n\n产品名称：{{product_name}}\n产品类型：{{product_category}}\n核心卖点：{{key_features}}\n目标人群：{{target_audience}}\n文案风格：{{tone}}\n\n要求：\n1. 200-300字\n2. 突出产品核心价值\n3. 符合目标人群的语言习惯\n4. 包含购买引导";
+
+/* 广告语 */
+"template.marketing_slogan.name" = "广告语生成";
+"template.marketing_slogan.description" = "创作简洁有力的品牌广告语";
+"template.marketing_slogan.field.brand_name.label" = "品牌名称";
+"template.marketing_slogan.field.brand_name.placeholder" = "输入品牌名称";
+"template.marketing_slogan.field.brand_positioning.label" = "品牌定位";
+"template.marketing_slogan.field.brand_positioning.placeholder" = "描述品牌的核心定位和价值主张";
+"template.marketing_slogan.field.keywords.label" = "关键词";
+"template.marketing_slogan.field.keywords.placeholder" = "希望传达的关键词，如：创新、品质、温暖";
+"template.marketing_slogan.field.style.label" = "风格要求";
+"template.marketing_slogan.field.style.placeholder" = "选择广告语风格";
+"template.marketing_slogan.field.style.option.concise" = "简洁有力";
+"template.marketing_slogan.field.style.option.emotional" = "温情走心";
+"template.marketing_slogan.field.style.option.humorous" = "幽默诙谐";
+"template.marketing_slogan.field.style.option.grand" = "大气磅礴";
+"template.marketing_slogan.system_prompt" = "你是一位顶尖的广告创意总监，擅长创作令人过目不忘的广告语。你的创作原则：\n1. 简洁：好的广告语不超过10个字\n2. 独特：有鲜明的品牌辨识度\n3. 共鸣：触动目标受众的情感\n4. 记忆：朗朗上口，易于传播\n5. 真实：与品牌定位高度契合";
+"template.marketing_slogan.user_prompt" = "请为以下品牌创作5条广告语：\n\n品牌名称：{{brand_name}}\n品牌定位：{{brand_positioning}}\n关键词：{{keywords}}\n风格要求：{{style}}\n\n要求：\n1. 每条广告语不超过10个字\n2. 风格各异，可供选择\n3. 朗朗上口，易于记忆\n4. 体现品牌核心价值";
+
+/* ========== 教育学习模板 ========== */
+
+/* 知识点讲解 */
+"template.edu_explain.name" = "知识点讲解";
+"template.edu_explain.description" = "用通俗易懂的方式解释复杂概念";
+"template.edu_explain.field.concept.label" = "知识点";
+"template.edu_explain.field.concept.placeholder" = "输入需要解释的概念或知识点";
+"template.edu_explain.field.subject.label" = "学科领域";
+"template.edu_explain.field.subject.placeholder" = "例如：数学、物理、经济学";
+"template.edu_explain.field.audience_level.label" = "受众水平";
+"template.edu_explain.field.audience_level.placeholder" = "选择理解水平";
+"template.edu_explain.field.audience_level.option.elementary" = "小学生";
+"template.edu_explain.field.audience_level.option.middle_school" = "初中生";
+"template.edu_explain.field.audience_level.option.high_school" = "高中生";
+"template.edu_explain.field.audience_level.option.college" = "大学生";
+"template.edu_explain.field.audience_level.option.professional" = "专业人士";
+"template.edu_explain.system_prompt" = "你是一位优秀的教育者，擅长用简单易懂的方式解释复杂概念。你的讲解特点：\n1. 循序渐进：从已知到未知，从简单到复杂\n2. 生动比喻：用生活中的例子帮助理解\n3. 图文并茂：必要时用文字描述可视化内容\n4. 强调重点：突出核心要点\n5. 巩固练习：提供简单的练习或思考题";
+"template.edu_explain.user_prompt" = "请用通俗易懂的方式解释以下知识点：\n\n知识点：{{concept}}\n学科领域：{{subject}}\n受众水平：{{audience_level}}\n\n要求：\n1. 使用适合受众水平的语言\n2. 用生活中的例子辅助理解\n3. 突出核心要点\n4. 提供1-2个思考题";
+
+/* 学习计划 */
+"template.edu_study_plan.name" = "学习计划生成";
+"template.edu_study_plan.description" = "制定个性化的学习计划和时间安排";
+"template.edu_study_plan.field.learning_goal.label" = "学习目标";
+"template.edu_study_plan.field.learning_goal.placeholder" = "例如：掌握Python基础、通过英语六级";
+"template.edu_study_plan.field.current_level.label" = "当前水平";
+"template.edu_study_plan.field.current_level.placeholder" = "描述你目前的基础情况";
+"template.edu_study_plan.field.available_time.label" = "可用时间";
+"template.edu_study_plan.field.available_time.placeholder" = "例如：每天2小时、周末全天";
+"template.edu_study_plan.field.deadline.label" = "目标期限";
+"template.edu_study_plan.field.deadline.placeholder" = "例如：3个月、半年";
+"template.edu_study_plan.field.deadline.option.1month" = "1个月";
+"template.edu_study_plan.field.deadline.option.3months" = "3个月";
+"template.edu_study_plan.field.deadline.option.6months" = "6个月";
+"template.edu_study_plan.field.deadline.option.1year" = "1年";
+"template.edu_study_plan.system_prompt" = "你是一位专业的学习规划师，擅长制定高效可执行的学习计划。你的规划特点：\n1. 目标分解：将大目标拆解为可量化的小目标\n2. 循序渐进：从易到难，建立知识体系\n3. 时间管理：合理分配学习时间\n4. 定期检测：设置阶段性检验点\n5. 灵活调整：预留缓冲时间";
+"template.edu_study_plan.user_prompt" = "请为我制定一份详细的学习计划：\n\n学习目标：{{learning_goal}}\n当前水平：{{current_level}}\n可用时间：{{available_time}}\n目标期限：{{deadline}}\n\n要求：\n1. 分阶段制定计划\n2. 每阶段有明确的学习内容和目标\n3. 推荐学习资源\n4. 设置检验标准\n5. 提供时间管理建议";
+
+/* 错题分析 */
+"template.edu_mistake_analysis.name" = "错题分析助手";
+"template.edu_mistake_analysis.description" = "分析错题原因，提供针对性复习建议";
+"template.edu_mistake_analysis.field.question.label" = "题目内容";
+"template.edu_mistake_analysis.field.question.placeholder" = "粘贴完整的题目";
+"template.edu_mistake_analysis.field.wrong_answer.label" = "你的答案";
+"template.edu_mistake_analysis.field.wrong_answer.placeholder" = "你选择或写的答案";
+"template.edu_mistake_analysis.field.correct_answer.label" = "正确答案";
+"template.edu_mistake_analysis.field.correct_answer.placeholder" = "标准答案（如果知道的话）";
+"template.edu_mistake_analysis.field.subject.label" = "学科";
+"template.edu_mistake_analysis.field.subject.placeholder" = "选择学科";
+"template.edu_mistake_analysis.field.subject.option.math" = "数学";
+"template.edu_mistake_analysis.field.subject.option.physics" = "物理";
+"template.edu_mistake_analysis.field.subject.option.chemistry" = "化学";
+"template.edu_mistake_analysis.field.subject.option.english" = "英语";
+"template.edu_mistake_analysis.field.subject.option.chinese" = "语文";
+"template.edu_mistake_analysis.field.subject.option.other" = "其他";
+"template.edu_mistake_analysis.system_prompt" = "你是一位经验丰富的教师，擅长分析学生的错题并提供针对性指导。你的分析方法：\n1. 找出错因：是知识点不懂、理解偏差还是粗心大意\n2. 讲解知识：详细解释相关知识点\n3. 解题思路：展示正确的解题步骤\n4. 举一反三：提供类似题目练习\n5. 复习建议：针对性的复习方向";
+"template.edu_mistake_analysis.user_prompt" = "请帮我分析以下错题：\n\n【题目】\n{{question}}\n\n【我的答案】\n{{wrong_answer}}\n\n【正确答案】\n{{correct_answer}}\n\n【学科】\n{{subject}}\n\n请提供：\n1. 错误原因分析\n2. 相关知识点讲解\n3. 正确解题步骤\n4. 类似题目举例\n5. 复习建议";
+
+/* ========== 创意写作模板 ========== */
+
+/* 故事创作 */
+"template.creative_story.name" = "故事创作";
+"template.creative_story.description" = "根据设定生成有趣的短故事";
+"template.creative_story.field.theme.label" = "故事主题";
+"template.creative_story.field.theme.placeholder" = "例如：友情、冒险、成长";
+"template.creative_story.field.setting.label" = "故事背景";
+"template.creative_story.field.setting.placeholder" = "例如：现代都市、古代王朝、未来世界";
+"template.creative_story.field.characters.label" = "主要角色";
+"template.creative_story.field.characters.placeholder" = "描述故事的主要角色";
+"template.creative_story.field.length.label" = "故事长度";
+"template.creative_story.field.length.placeholder" = "选择故事长度";
+"template.creative_story.field.length.option.micro" = "微型（100字）";
+"template.creative_story.field.length.option.short" = "短篇（500字）";
+"template.creative_story.field.length.option.medium" = "中篇（1000字）";
+"template.creative_story.system_prompt" = "你是一位富有创意的故事作家，擅长创作引人入胜的故事。你的故事特点：\n1. 开头吸引：第一句话就抓住读者\n2. 情节起伏：有冲突、有转折、有高潮\n3. 人物鲜活：角色有性格、有动机\n4. 结尾有力：意味深长或出人意料\n5. 主题深刻：传达积极的价值观";
+"template.creative_story.user_prompt" = "请根据以下设定创作一个故事：\n\n故事主题：{{theme}}\n故事背景：{{setting}}\n主要角色：{{characters}}\n故事长度：{{length}}\n\n要求：\n1. 情节完整，有起承转合\n2. 人物形象生动\n3. 语言流畅，富有画面感\n4. 结尾意味深长";
+
+/* 诗歌创作 */
+"template.creative_poem.name" = "诗歌创作";
+"template.creative_poem.description" = "根据主题和风格创作诗歌";
+"template.creative_poem.field.theme.label" = "诗歌主题";
+"template.creative_poem.field.theme.placeholder" = "例如：思乡、爱情、自然";
+"template.creative_poem.field.style.label" = "诗歌风格";
+"template.creative_poem.field.style.placeholder" = "选择诗歌风格";
+"template.creative_poem.field.style.option.modern" = "现代诗";
+"template.creative_poem.field.style.option.classical" = "古风诗";
+"template.creative_poem.field.style.option.haiku" = "俳句";
+"template.creative_poem.field.style.option.limerick" = "打油诗";
+"template.creative_poem.field.style.option.prose" = "散文诗";
+"template.creative_poem.field.mood.label" = "情感基调";
+"template.creative_poem.field.mood.placeholder" = "选择情感基调";
+"template.creative_poem.field.mood.option.joyful" = "欢快明朗";
+"template.creative_poem.field.mood.option.melancholic" = "忧伤婉约";
+"template.creative_poem.field.mood.option.heroic" = "豪迈奔放";
+"template.creative_poem.field.mood.option.serene" = "宁静淡泊";
+"template.creative_poem.field.mood.option.profound" = "深沉厚重";
+"template.creative_poem.field.keywords.label" = "关键意象";
+"template.creative_poem.field.keywords.placeholder" = "例如：月亮、流水、落叶";
+"template.creative_poem.system_prompt" = "你是一位才华横溢的诗人，擅长各种风格的诗歌创作。你的诗歌特点：\n1. 意象丰富：善用比喻、象征等手法\n2. 韵律优美：注重音韵和节奏\n3. 情感真挚：以情动人\n4. 意境深远：留有想象空间\n5. 语言凝练：字字珠玑";
+"template.creative_poem.user_prompt" = "请根据以下要求创作一首诗：\n\n诗歌主题：{{theme}}\n诗歌风格：{{style}}\n情感基调：{{mood}}\n关键意象：{{keywords}}\n\n要求：\n1. 符合所选风格的特点\n2. 意象鲜明，情感真挚\n3. 语言优美，富有韵律\n4. 意境深远，引人遐想";
+
+/* 文案改写 */
+"template.creative_rewrite.name" = "文案风格改写";
+"template.creative_rewrite.description" = "将文案改写成不同风格";
+"template.creative_rewrite.field.original_text.label" = "原始文案";
+"template.creative_rewrite.field.original_text.placeholder" = "粘贴需要改写的文案";
+"template.creative_rewrite.field.target_style.label" = "目标风格";
+"template.creative_rewrite.field.target_style.placeholder" = "选择改写风格";
+"template.creative_rewrite.field.target_style.option.literary" = "文艺清新";
+"template.creative_rewrite.field.target_style.option.humorous" = "幽默搞笑";
+"template.creative_rewrite.field.target_style.option.formal" = "正式商务";
+"template.creative_rewrite.field.target_style.option.internet" = "网络流行";
+"template.creative_rewrite.field.target_style.option.classical" = "古风典雅";
+"template.creative_rewrite.field.target_style.option.simple" = "简洁直白";
+"template.creative_rewrite.field.keep_meaning.label" = "保留程度";
+"template.creative_rewrite.field.keep_meaning.placeholder" = "选择对原意的保留程度";
+"template.creative_rewrite.field.keep_meaning.option.full" = "完全保留原意";
+"template.creative_rewrite.field.keep_meaning.option.core" = "保留核心意思";
+"template.creative_rewrite.field.keep_meaning.option.free" = "自由发挥";
+"template.creative_rewrite.system_prompt" = "你是一位文案改写专家，擅长将同一内容用不同风格表达。你的改写特点：\n1. 风格鲜明：准确把握目标风格的特点\n2. 保留核心：不丢失原文的关键信息\n3. 自然流畅：改写后的文案读起来自然\n4. 创意加分：在保留原意的基础上增添亮点\n5. 适应场景：符合目标风格的使用场景";
+"template.creative_rewrite.user_prompt" = "请将以下文案改写成{{target_style}}风格：\n\n【原始文案】\n{{original_text}}\n\n【保留程度】\n{{keep_meaning}}\n\n要求：\n1. 准确把握{{target_style}}风格的特点\n2. 根据保留程度要求处理原意\n3. 改写后的文案自然流畅\n4. 提供2-3个不同版本供选择";
+
+/* 朋友圈文案 */
+"template.creative_moments.name" = "朋友圈文案";
+"template.creative_moments.description" = "生成有格调的朋友圈配文";
+"template.creative_moments.field.scene.label" = "场景描述";
+"template.creative_moments.field.scene.placeholder" = "例如：旅行打卡、美食分享、日常心情";
+"template.creative_moments.field.mood.label" = "心情状态";
+"template.creative_moments.field.mood.placeholder" = "例如：开心、感慨、放松";
+"template.creative_moments.field.style.label" = "文案风格";
+"template.creative_moments.field.style.placeholder" = "选择文案风格";
+"template.creative_moments.field.style.option.literary" = "文艺小清新";
+"template.creative_moments.field.style.option.humorous" = "幽默搞笑";
+"template.creative_moments.field.style.option.minimal" = "高级简约";
+"template.creative_moments.field.style.option.inspirational" = "励志正能量";
+"template.creative_moments.field.style.option.sentimental" = "伤感文学";
+"template.creative_moments.field.length.label" = "文案长度";
+"template.creative_moments.field.length.placeholder" = "选择长度";
+"template.creative_moments.field.length.option.one_line" = "一句话";
+"template.creative_moments.field.length.option.short" = "短句（2-3句）";
+"template.creative_moments.field.length.option.paragraph" = "小段落";
+"template.creative_moments.system_prompt" = "你是一位朋友圈文案达人，擅长写出让人想点赞的配文。你的文案特点：\n1. 有格调：不俗气，有品味\n2. 有共鸣：能引起朋友的共鸣\n3. 有个性：展现独特的个人风格\n4. 适度留白：不说太满，留有想象\n5. 适合配图：与照片相得益彰";
+"template.creative_moments.user_prompt" = "请为以下场景生成5条朋友圈文案：\n\n场景描述：{{scene}}\n心情状态：{{mood}}\n文案风格：{{style}}\n文案长度：{{length}}\n\n要求：\n1. 符合{{style}}风格\n2. 控制在{{length}}范围内\n3. 有格调，不俗气\n4. 适合配图发布\n5. 提供5个不同版本";

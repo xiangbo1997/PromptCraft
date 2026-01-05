@@ -44,78 +44,51 @@ struct PromptCraftApp: App {
     }
 }
 
-// 临时的 ContentView，用于验证运行
-// 临时的 ContentView，用于验证运行
+// 主内容视图
 struct ContentView: View {
     @Environment(AppState.self) var appState
-    @State private var selectedTab: Tab? = .optimize
     // 监听 LocalizationService 以响应语言变化
     @State private var localization = LocalizationService.shared
 
-    enum Tab: String, CaseIterable, Identifiable {
-        case optimize
-        case library
-        case tags
-        case settings
-        case history
-        case favorites
-
-        var id: String { rawValue }
-
-        /// 本地化显示名称（必须在主线程调用）
-        @MainActor
-        var localizedName: String {
-            let l = LocalizationService.shared
-            switch self {
-            case .optimize: return l.l("tab.optimize")
-            case .library: return l.l("tab.library")
-            case .tags: return l.l("tab.tags")
-            case .settings: return l.l("tab.settings")
-            case .history: return l.l("tab.history")
-            case .favorites: return l.l("tab.favorites")
-            }
-        }
-
-        var icon: String {
-            switch self {
-            case .optimize: return "wand.and.stars"
-            case .library: return "books.vertical"
-            case .tags: return "tag"
-            case .settings: return "gearshape"
-            case .history: return "clock"
-            case .favorites: return "star"
-            }
-        }
-    }
-
     var body: some View {
+        @Bindable var appState = appState
+
         NavigationSplitView {
-            List(selection: $selectedTab) {
+            List(selection: $appState.selectedTab) {
+                // 主功能区
                 Section {
-                    NavigationLink(value: Tab.optimize) {
-                        Label(Tab.optimize.localizedName, systemImage: Tab.optimize.icon)
+                    NavigationLink(value: MainTab.scenes) {
+                        Label(MainTab.scenes.localizedName, systemImage: MainTab.scenes.icon)
                     }
-                    NavigationLink(value: Tab.library) {
-                        Label(Tab.library.localizedName, systemImage: Tab.library.icon)
-                    }
-                    NavigationLink(value: Tab.tags) {
-                        Label(Tab.tags.localizedName, systemImage: Tab.tags.icon)
-                    }
-                    NavigationLink(value: Tab.settings) {
-                        Label(Tab.settings.localizedName, systemImage: Tab.settings.icon)
+                    NavigationLink(value: MainTab.optimize) {
+                        Label(MainTab.optimize.localizedName, systemImage: MainTab.optimize.icon)
                     }
                 }
 
+                // 数据管理
                 Section {
-                    NavigationLink(value: Tab.history) {
-                        Label(Tab.history.localizedName, systemImage: Tab.history.icon)
+                    NavigationLink(value: MainTab.library) {
+                        Label(MainTab.library.localizedName, systemImage: MainTab.library.icon)
                     }
-                    NavigationLink(value: Tab.favorites) {
-                        Label(Tab.favorites.localizedName, systemImage: Tab.favorites.icon)
+                    NavigationLink(value: MainTab.history) {
+                        Label(MainTab.history.localizedName, systemImage: MainTab.history.icon)
+                    }
+                    NavigationLink(value: MainTab.favorites) {
+                        Label(MainTab.favorites.localizedName, systemImage: MainTab.favorites.icon)
+                    }
+                    NavigationLink(value: MainTab.tags) {
+                        Label(MainTab.tags.localizedName, systemImage: MainTab.tags.icon)
+                    }
+                }
+
+                // 设置
+                Section {
+                    NavigationLink(value: MainTab.settings) {
+                        Label(MainTab.settings.localizedName, systemImage: MainTab.settings.icon)
                     }
                 }
             }
-            .navigationTitle("PromptCraft")
+            .navigationTitle("SparkPrompt")
             .listStyle(.sidebar)
             .safeAreaInset(edge: .bottom) {
                 VStack(alignment: .leading, spacing: 4) {
@@ -135,7 +108,9 @@ struct ContentView: View {
                 .background(Color(nsColor: .controlBackgroundColor))
             }
         } detail: {
-            switch selectedTab {
+            switch appState.selectedTab {
+            case .scenes:
+                SceneLibraryView()
             case .optimize:
                 OptimizeView()
             case .library:
@@ -149,7 +124,7 @@ struct ContentView: View {
             case .favorites:
                 FavoritesView(storageService: appState.storageService)
             case .none:
-                OptimizeView()
+                SceneLibraryView()
             }
         }
     }
